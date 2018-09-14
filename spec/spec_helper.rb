@@ -1,5 +1,8 @@
 require "bundler/setup"
-require "graphql/persisted/queries"
+require "graphql"
+require "graphql/persisted_queries"
+require "support/test_schema/schema"
+
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
